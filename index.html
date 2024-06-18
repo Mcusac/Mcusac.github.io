@@ -2,83 +2,124 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title> Matthew D. Cusack Bio</title>
+  <title>Matthew D. Cusack Bio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <style>
+    h1 {
+      text-align: center;
+      color: crimson;
+      background-color: white;
+    }
+    img {
+      display: block;
+      margin: auto; /* Center the image */
+      width: 200px; /* Adjust size as needed */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 50%; /* Rounded image */
+    }
+    p {
+      text-align: center;
+      font-weight: lighter;
+    }
+    ul {
+      text-align: left;
+      list-style-position: inside;
+    }
+    table {
+      margin: auto; /* Center the table */
+      text-align: center;
+      border-style: dashed;
+    }
+    th {
+      border-bottom-style: double;
+    }
+    td {
+      border-right-style: groove;
+      border-bottom-style: groove;
+    }
+    .pdf-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .pdf-link a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .pdf-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
-<style>
-  h1 {
-    text-align: center;
-    color: crimson;
-    background-color: white;
-  }
-  img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  p {
-    text-align: center;
-    font-weight: lighter;
-  }
-  ul {
-    text-align: center;
-    border-style: solid;
-    list-style-position: inside;
-  }
-  table {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border-style: dashed;
-  }
-  th {
-    border-bottom-style: double;
-  }
-  td {
-    border-right-style: groove;
-    border-bottom-style: groove;
-  }
-</style>
-
 <body>
-  <h1>Matthew D. Cusack</h1>
-
-  <img src="https://media.licdn.com/dms/image/C4E03AQEbwspvSlWuhw/profile-displayphoto-shrink_200_200/0/1642702235297?e=1718236800&v=beta&t=r-jd1Xl1YZlAZSFb1oDlwQR8origI2Lo2PBUgx4BOY4" 
-    alt="Matthew D. Cusack"/>
-  <br>
-  <p>
-    I like to play video games and board games. I also like to watch comedy and horror movies.
-  </p>
-  <ul>
-    <li><strong>Email:</strong> <a href="mattthew.d.cuscak@gmail.com">mattthew.d.cuscak@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="https://github.com/Mcusac">Mcusac</a></li>
-    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/matthew-cusack-2aa3b322b/">Matthew Cusack</a></li>
-
-  </ul>
-
-  <table>
-    <tr>
-      <th>Movies</th>
-      <th>Games</th>
-      <th>Books</th>
-    </tr>
-    <tr>
-      <td>Star Wars Episode V: The Empire Strikes Back</td>
-      <td>Stellaris</td>
-      <td>The Alchemist</td>
-    </tr>
-    <tr>
-      <td>A Haunted House</td>
-      <td>Halo 3</td>
-      <td>A Game of Thrones</td>
-    </tr>
-    <tr>
-      <td>10 Cloverfield Lane</td>
-      <td>Pokemon Emerald</td>
-      <td>Remina</td>
-    </tr>
-  </table>
-
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="what-skills-are-you-looking-for.html">What Skills Are You Looking For?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <h1>Matthew D. Cusack</h1>
+    
+    <img src="https://media.licdn.com/dms/image/C4E03AQEbwspvSlWuhw/profile-displayphoto-shrink_200_200/0/1642702235297?e=1724284800&v=beta&t=qhDwc3cXv-FwaB7aLee_zsITEl8q2STSf0w0bByyvfs" 
+         alt="Matthew D. Cusack Profile Picture"/>
+    <br>
+    
+    <p>
+      Hello! I am actively seeking full-time opportunities to leverage my passion for the field of Data Science. I am particularly fascinated by the potential of machine learning to solve complex problems, data engineering to build robust data pipelines, and cybersecurity to ensure data integrity and privacy. Eager to leverage my skills and knowledge to contribute to a team focused on extracting valuable insights from data.
+    </p>
+    
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:mattthew.d.cuscak@gmail.com">mattthew.d.cuscak@gmail.com</a></li>
+      <li><strong>Github:</strong> <a href="https://github.com/Mcusac">Mcusac</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/matthew-cusack-2aa3b322b/">Matthew Cusack</a></li>
+    </ul>
+    
+    <table>
+      <tr>
+        <th>Movies</th>
+        <th>Games</th>
+        <th>Books</th>
+      </tr>
+      <tr>
+        <td>Star Wars Episode V: The Empire Strikes Back</td>
+        <td>Stellaris</td>
+        <td>The Alchemist</td>
+      </tr>
+      <tr>
+        <td>A Haunted House</td>
+        <td>Halo 3</td>
+        <td>A Game of Thrones</td>
+      </tr>
+      <tr>
+        <td>10 Cloverfield Lane</td>
+        <td>Pokemon Emerald</td>
+        <td>Remina</td>
+      </tr>
+    </table>
+    
+    <div class="pdf-link">
+      <p>Check out my final project from the SMU Data Science Bootcamp:</p>
+      <a href="https://github.com/Mcusac/Mcusac.github.io/blob/main/Final%20Draft%20Final%20Project%20(1).pdf" target="_blank">View Final Project (PDF)</a>
+    </div>
+  </div>
 </body>
-
 </html>
