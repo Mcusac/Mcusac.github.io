@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>What Skills are You Looking For? - Matthew D. Cusack</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <style>
+    h1 {
+      text-align: center;
+      color: crimson;
+      background-color: white;
+    }
+    .container {
+      margin-top: 20px;
+    }
+    .skill-category {
+      margin: 20px 0;
+    }
+    .skill-category h3 {
+      color: #007BFF;
+    }
+    .project {
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+    .skill-category ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .skill-category li {
+      margin: 5px 0;
+    }
+    .skill-category li a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="what-skills-are-you-looking-for.html">What Skills Are You Looking For?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <h1>What Skills Are You Looking For?</h1>
+    
+    <div class="skill-category">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Web Development</h3>
+      <ul>
+        <li><a href="https://github.com/Mcusac/Web-Design-Challenge/tree/main">HTML</a></li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Data Engineering</h3>
+      <ul>
+        <li><a href="https://github.com/Mcusac/sqlalchemy-challenge">SQL</a></li>
+        <li><a href= 'https://github.com/Mcusac/web-scraping-challenge/tree/main'>MongoDB</a></li>
+        <li>R</li>
+        <li><a href="https://github.com/Mcusac/matplotlib-challenge">Matplotlib</a></li>
+        <li>NumPy</li>
+        <li><a href="https://github.com/Mcusac/Spam-Case-Study">Pandas</a></li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Cloud Computing</h3>
+      <ul>
+        <li><a href = "https://github.com/Mcusac/big-data-challenge/tree/main">AWS</a></li>
+        <li>Microsoft Azure</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Machine Learning & AI</h3>
+      <ul>
+        <li><a href="https://github.com/Mcusac/deep-learning-challenge">TensorFlow</a></li>
+        <li>PyTorch</li>
+        <li><a href="https://github.com/Mcusac/Internet-Request-Case-Study">scikit-learn</a></li>
+        <li><a href="https://github.com/Mcusac/Penny-Pincher-Case-Study">XGBoost</a></li>
+        <li>LLM</li>
+        <li><a href="https://github.com/Mcusac/Heart-Failure-Prediction">RAG</a></li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Software Tools</h3>
+      <ul>
+        <li><a href="https://github.com/Mcusac/excel-challenge">Microsoft Excel</a></li>
+        <li>Microsoft PowerPoint</li>
+        <li>Microsoft Outlook</li>
+        <li>Microsoft Word</li>
+        <li>VSCode</li>
+      </ul>
+    </div>
+
+    <h2>Projects</h2>
+    
+    <div class="project">
+      <h4>OnlineNewsPopML</h4>
+      <p>Using an Online News Popularity Poll from Mashable, multiple machine learning models (Logistic Regression, SVM, SVC, KNN, Random Forest, KMeans, DBSCAN, OPTICS, Agglomerative Clustering) were created to predict the popularity of an internet article. Data was cleaned using R and Jupyter Notebook.</p>
+      <a href="https://github.com/Mcusac/OnlineNewsPopML" class="btn btn-primary">View Project</a>
+    </div>
+
+    <div class="project">
+      <h4>Car Price Predictor</h4>
+      <p>Created RandomForestRegressor and ExtraTreesRegressor models that predicted Price based on other features. Scraped data, added it to an SQLite server, cleaned using Pandas, created many sklearn models, pickled two models, created Flask app, and ran on Heroku, multiple html pages customized with CSS and Bootstrap.</p>
+      <a href="https://github.com/Mcusac/Car-Price-Predictor" class="btn btn-primary">View Project</a>
+    </div>
+
+    <div class="project">
+      <h4>HeartHealthApp</h4>
+      <p>Flask app with multiple HTML pages. A basic RAG application using PubMed API was performed on the Mistral 7B LLM so that it can answer questions concerning heart health. A tuned Random Forest model was trained to predict heart failure based on other features.</p>
+      <a href="https://github.com/Mcusac/HeartHealthApp" class="btn btn-primary">View Project</a>
+    </div>
+
+  </div>
+</body>
+</html>
